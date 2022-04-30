@@ -25,31 +25,3 @@ for (items of buttons) {
     })
 }
 
-
-
-// let disp = document.querySelector("display");
-// let button = Array.from(document.querySelectorAll("button"));
-
-// buttons.map(button => {
-//     button.addEventListener('click', (e) => {
-//         switch(e.target.innerText){
-//             case 'C':
-//                 disp.innerText = '';
-//                 break;
-//             case '=':
-//                 try{
-//                     disp.innerText = eval(disp.innerText);
-//                 } catch {
-//                     disp.innerText = "Error"
-//                 }
-//                 break;
-//             case '←':
-//                 if (disp.innerText){
-//                    disp.innerText = disp.innerText.slice(0, -1);
-//                 }
-//                 break;
-//             default:
-//                 disp.innerText += e.target.innerText;
-//         }
-//     });
-// });
